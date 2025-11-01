@@ -160,7 +160,7 @@ async function displayStudentDetails(studentId) {
             </div>
         `).join('')}
 
-        <button onclick="deleteStudent('${student.id}')" class="fya-red text-white p-2 rounded mt-4">Eliminar</button>
+        <button onclick="deleteStudent('${student.id}')" class="fya-red text-white p-2 rounded mt-4">Eliminar estudiante</button>
     `;
 }
 
@@ -398,4 +398,5 @@ async function deleteExpense() {
         alert('Error eliminando gasto: ' + result.error);
         expenses.push(e);
     }
+
 }
