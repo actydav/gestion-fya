@@ -1,4 +1,4 @@
-// ===== FUNCIONES DEL PANEL ADMIN =====
+// ===== panel de admin y func. =====
 
 async function openAdminModal() {
     document.getElementById('admin-modal').style.display = 'block';
@@ -400,3 +400,4 @@ async function deleteExpense() {
     }
 
 }
+
