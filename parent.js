@@ -71,7 +71,7 @@ async function displayParentReport(ci) {
 
             <div class="mt-6 flex gap-3">
                 <button onclick="openBnbQrModal('${student.ci}')" class="fya-red text-white px-5 py-2 rounded hover:bg-red-700">
-                    Pagar con BNB
+                    Pagar con QR
                 </button>
                 <button onclick="showParentChart('${student.ci}')" class="bg-red-700 text-white px-5 py-2 rounded hover:bg-red-800">Ver Gráfico</button>
             </div>
@@ -132,4 +132,5 @@ async function showParentChart(ci) {
             }
         }
     });
+
 }
